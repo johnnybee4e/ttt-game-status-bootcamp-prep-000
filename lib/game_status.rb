@@ -19,4 +19,3 @@ def won?(board)
     false
   end
 end
-
