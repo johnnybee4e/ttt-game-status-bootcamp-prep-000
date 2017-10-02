@@ -15,7 +15,17 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
-  if !position_taken(board, index)
-    false
+  WIN_COMBINATIONS.each do |win_combination|
+    win.combination.each do |win_index|
+      win_index = win_combination[win_index]
+
+      position = board[win_index]
+      if position == "X"
+        win_combination
+      else
+        false
+      end
+    end
   end
 end
+
