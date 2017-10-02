@@ -25,3 +25,13 @@ def won?(board)
 def full?(board)
   full_board = board.none?{|token| token == " "}
 end
+
+def draw?(board)
+  if won?(board) == true
+    false
+  elsif !full?(board)
+    false
+  else
+    true
+  end
+end
