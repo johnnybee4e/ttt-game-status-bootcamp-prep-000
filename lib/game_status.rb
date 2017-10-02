@@ -22,6 +22,3 @@ def won?(board)
    end
  end
 
-def full?(board)
-  full_board = board.all?{|token| !token == " "}
-end
