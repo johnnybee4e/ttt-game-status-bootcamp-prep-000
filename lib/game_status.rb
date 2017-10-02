@@ -26,4 +26,3 @@ def full?(board)
   full_board = position_taken?.all? do |token|
   end
 end
-    
