@@ -15,7 +15,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 def won?(board)
-  if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  if board == [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     false
   #else
   #WIN_COMBINATIONS.each do |win_combination|
@@ -26,5 +26,5 @@ def won?(board)
   #      win_combination
   #    end
   #  end
-  #end
+  end
 end
