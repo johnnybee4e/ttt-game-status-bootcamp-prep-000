@@ -21,4 +21,3 @@ def won?(board)
      position_taken?(board, win_combo[0])
    end
  end
-
