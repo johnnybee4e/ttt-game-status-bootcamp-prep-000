@@ -21,3 +21,9 @@ def won?(board)
      position_taken?(board, win_combo[0])
    end
  end
+
+def full?(board)
+  full_board = position_taken?.all? do |token|
+  end
+end
+    
