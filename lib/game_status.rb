@@ -35,5 +35,7 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board).all?{|token| token == "X" || token == "O"}
+  if win_combination == won?(board)
+    board[win_combination.first]
+  end
 end
